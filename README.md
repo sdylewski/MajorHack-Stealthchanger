@@ -7,18 +7,25 @@ Initial Voron 2.4 300 with Stealthburner
 
 Plan to move to 4 toolheads, mostly dragonburner since it seems well supported by Stealthchanger already.
 
+## References
+* DraftShift Design
+* Good [instructions from Cergs](https://github.com/EasterWorks/Cergs-Stealthchanger/blob/main/Hardware-And-Calibration.md) and background found here
+
 ## Docking / Door Buffer / etc
 * Door buffer & crossbar, default from Draftshift
 * [Dragonburner magnetic docks](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) (not in github, only Discord)
+* option:  replace front xy idlers: [Beefy Front Idlers](https://github.com/clee/VoronBFI)
 
 ## Cable management
 * CAN 
 ## Toolheads
+* [Fystec CNC Shuttle](https://www.fysetc.com/products/fysetc-stealthchanger-cnc-shuttle-kit-sb-combo-v2-board-tool-distribution-board-h36-board?variant=44927105040559) (includes all dowel pins, magnets, and hardware for 6 toolheads!)
 ### Stealthburner
 * Regular dock
 * Magnetic dock?
+* [Happy Crab dock](https://www.printables.com/model/994635-stealthchanger-stealthburner-minimal-docks-aka-hap)
 * TBD: [Filament runout](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/RNGIllSkillz/IllFilamentRunout)
-* 
+* [Screwed pins backplate](https://www.printables.com/model/1358108-stealtchanger-stealthburner-backplate-with-screwed/comments)
 
 ### Dragonburners
 * EBB36 CANn toolhead board, using UserMod [TheSin PCB36 Mount](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/TheSin-/PCB36_Mount)
@@ -26,10 +33,11 @@ Plan to move to 4 toolheads, mostly dragonburner since it seems well supported b
 * [Magnetic dock](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) for Dragonburner, Discord only
 * [Dragonburner numbered cowls](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/traxman25) (not compatible with magnetic bases?)
 
-## Software
+## Software & Calibration
 Sounds like I should use "Klipper-toolchanger-easy" instead of the default repo.  
 * https://github.com/jwellman80/klipper-toolchanger-easy?tab=readme-ov-file
-* 
+* Nudge XY calibration
+* [Dock Tuner macro](https://discord.com/channels/1226846451028725821/1417208011272749127/1417208011272749127)
 
 ## Setup & Slicing
 How to handle the build area loss from the docks? 
