@@ -37,7 +37,7 @@ Plan to move to 4 toolheads, mostly dragonburner since it seems well supported b
 Sounds like I should use "Klipper-toolchanger-easy" instead of the default repo.  
 * https://github.com/jwellman80/klipper-toolchanger-easy?tab=readme-ov-file
 * Nudge XY calibration
-* [Dock Tuner macro](https://discord.com/channels/1226846451028725821/1417208011272749127/1417208011272749127)
+* [Dock Tuner macro]((https://github.com/Contomo/klipper-toolchanger-hard/blob/main/examples/dock%20location/fixed/dock_tuner.cfg)
 
 ## Setup & Slicing
 How to handle the build area loss from the docks? 
