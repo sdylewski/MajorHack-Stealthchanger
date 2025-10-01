@@ -41,6 +41,7 @@ Sounds like I should use "Klipper-toolchanger-easy" instead of the default repo.
 * Nudge XY calibration
 * [Dock Tuner macro]((https://github.com/Contomo/klipper-toolchanger-hard/blob/main/examples/dock%20location/fixed/dock_tuner.cfg)  how to install?
 * LEDs: [Example from Draftshift](https://github.com/DraftShift/klipper-toolchanger?tab=readme-ov-file) designs page
+* [LED Effects](https://github.com/julianschill/klipper-led_effect)
 
 SW Setup issues:
 * if using "fan0 or fan2" from slicer, need to change those back to named fans.
