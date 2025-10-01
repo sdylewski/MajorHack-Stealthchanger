@@ -15,6 +15,7 @@ Plan to move to 4 toolheads, mostly dragonburner since it seems well supported b
 * Door buffer & crossbar, default from Draftshift
 * [Dragonburner magnetic docks](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) (not in github, only Discord)
 * option:  replace front xy idlers: [Beefy Front Idlers](https://github.com/clee/VoronBFI)
+* Looks like I should try to change my idlers to [MiniBFI](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/BT123/MiniBFI%20%2B%20MicroBFI)
 
 ## Cable management
 * CAN 
@@ -36,8 +37,14 @@ Plan to move to 4 toolheads, mostly dragonburner since it seems well supported b
 ## Software & Calibration
 Sounds like I should use "Klipper-toolchanger-easy" instead of the default repo.  
 * https://github.com/jwellman80/klipper-toolchanger-easy?tab=readme-ov-file
+* Klipper-toolchanger-easy is just for installation.  After installing that, still follow the [stealthchanger wiki](https://github.com/DraftShift/StealthChanger/wiki/Calibration) for configuration and setup!
 * Nudge XY calibration
-* [Dock Tuner macro]((https://github.com/Contomo/klipper-toolchanger-hard/blob/main/examples/dock%20location/fixed/dock_tuner.cfg)
+* [Dock Tuner macro]((https://github.com/Contomo/klipper-toolchanger-hard/blob/main/examples/dock%20location/fixed/dock_tuner.cfg)  how to install?
+* LEDs: [Example from Draftshift](https://github.com/DraftShift/klipper-toolchanger?tab=readme-ov-file) designs page
+
+SW Setup issues:
+* if using "fan0 or fan2" from slicer, need to change those back to named fans.
+
 
 ## Setup & Slicing
 How to handle the build area loss from the docks? 
