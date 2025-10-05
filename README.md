@@ -48,6 +48,14 @@ Sounds like I should use "Klipper-toolchanger-easy" instead of the default repo.
 SW Setup issues:
 * if using "fan0 or fan2" from slicer, need to change those back to named fans.
 
+## Calibration !!
+I found that the default instructions on the Draftshift wiki were wrong. I started with 1 Stealthburner as T0, and 1 Dragonburner as T1.  Assumed all the calibration would allow for this, but after three days of frustration, here's my learnings:
+1. If you home with T1, Anytime the gcode_offsets change for T>0, the dock positions need to be updated.
+2. When you get your T1 dock positions,M114 reports the gcode positions. That is, the raw machine position with any gcode_offsets and probe_offsets.  I found that I needed to use the raw machine position in my dock locations set in params_park_x,y,z.  This means using my Fluidd-reported location without offsets, NOT M114 locations, which include all the offsets.
+3. When people use the same toolhead for all their tools, they don't notice this difference because each tool's gcode_offset_x,y is near zero.
+4. Another way to get around this difficulty would be to home with T0 (no gcode or probe offsets!), and then, when putting T1 on, DON'T initialize_toolchanger.  This should (to be verified) keep the machine coordinates.
+5. FYI, because initialize_toolchanger applies the probe and gcode_offsets, this is a feature, not a bug. This allows you to home with any tool, and the dock locations will be the same.
+
 
 ## Setup & Slicing
 How to handle the build area loss from the docks? 
