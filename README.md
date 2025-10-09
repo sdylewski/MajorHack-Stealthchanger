@@ -31,6 +31,7 @@ Plan to move to 4 toolheads, mostly dragonburner since it seems well supported b
 * 
 ### Dragonburners
 * [EBB36 CANn toolhead board](https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20and%20V1.2%20(STM32G0B1)/EBB36%20CAN%20V1.1%20and%20V1.2/Hardware/EBB36%20CAN%20V1.1%26V1.2-PIN.png), using UserMod [TheSin PCB36 Mount](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/TheSin-/PCB36_Mount)
+* [22mm standoffs](https://www.printables.com/model/1440113-m3-heatset-standoffs-10mm-30mm) to mount the toolhead board to Orbiter 2 extruder
 * Needs the toolhead attachment to shuttle from TheSin also: 
 * [Magnetic dock](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) for Dragonburner, Discord only
 * [Dragonburner numbered cowls](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/traxman25) (not compatible with magnetic bases?)
