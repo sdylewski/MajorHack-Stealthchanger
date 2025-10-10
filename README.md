@@ -1,15 +1,89 @@
 # Stealthchanger
-My notes and files for Stealthchanger
+## Introduction
+It was difficult to figure out my stealthchanger build, so this is my attempt to define a standard build that works and correct a lot of the errors in the documentation.
 
-It was difficult to figure out my stealthchanger build, and many things are confusing still.  Here's my setup:
+I started with an initial LDO Voron 2.4 300 with Stealthburner toolhead running on CAN (SB2209 CAN RP2040 board), with a Rapido Ace hotend and Galileo2 Extruder. 
 
-Initial Voron 2.4 300 with Stealthburner
+Plan is to move slowly to 4 toolheads, mostly dragonburner since it seems well supported by Stealthchadnger already. This assumes you have a working printer that can print ABS or ASA for printing the parts needed for StealthChanger.  
 
-Plan to move to 4 toolheads, mostly dragonburner since it seems well supported by Stealthchanger already.
+What worked well for me was to do the following in this order:
 
-## References
-* DraftShift Design
+1. Decide on what you want to do! Then be prepared to change your mind halfway through, and re-print stuff, take everything apart, and do it again.
+2. Upgrade to CAN or USB toolhead board for primary toolhead. 
+2. Install CAN or USB distribution board and "backpack"
+3. Install umbilical cable to primary toolhead (T0)
+4. Install CNC shuttle and backplate for your toolhead
+5. Get printer working again to print other parts.
+6. Print door buffer (done anytime)
+7. Install top hat (done anytime)
+8. Install Docks for your toolhead (getting harder)
+9. Build 2nd + toolheads, install with umbilicals.
+10. Install Klipper-toolchanger-easy (KTE)
+11. Configure KTE
+12. Calibrate offsets
+13. Calibrate dock locations
+
+## Main References
+* DraftShift Design Repositories
+* DraftShift Design Stealthchanger Wiki
 * Good [instructions from Cergs](https://github.com/EasterWorks/Cergs-Stealthchanger/blob/main/Hardware-And-Calibration.md) and background found here
+
+## Main Components & Options
+<table>
+<tr><th>Components</th><th>Details</th><th>Options</th></tr>
+<tr>
+	<td valign=top> 
+	**Shuttle**
+	![Fystec shuttle](Images/Fystec_CNC_Shuttle.jpg)
+	</td>
+	<td valign=top> 
+	Recommend a CNC shuttle for rigidity, precision, and you loose less Y-travel. <br> But you can print your own.
+	</td>
+	<td valign=top>
+	</td>
+</tr>
+<tr>
+	<td valign=top> 
+	</td>
+	<td valign=top>
+	</td>
+	<td valign=top>
+	</td>
+</tr>
+<tr>
+	<td valign=top> 
+	</td>
+	<td valign=top>
+	</td>
+	<td valign=top>
+	</td>
+</tr>
+<tr>
+	<td valign=top> 
+	</td>
+	<td valign=top>
+	</td>
+	<td valign=top>
+	</td>
+</tr>
+<tr>
+	<td valign=top> 
+	</td>
+	<td valign=top>
+	</td>
+	<td valign=top>
+	</td>
+</tr>
+<tr>
+	<td valign=top> 
+	</td>
+	<td valign=top>
+	</td>
+	<td valign=top>
+	</td>
+</tr>
+</table>
+
 
 ## Docking / Door Buffer / etc
 * Door buffer & crossbar, default from Draftshift
