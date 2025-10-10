@@ -34,13 +34,17 @@ What worked well for me was to do the following in this order:
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
 
 <tr>
-	<td valign=top><strong>Shuttle</strong><br>
+	<td valign=top><strong><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Shuttle</a></strong><br>
       <img src="Images/Fystec_CNC_Shuttle.jpg" alt="Fystec shuttle" width="220">
 	</td>
 	<td valign=top>
 	</td>
 	<td valign=top>
-	<ul><li>LDO kit</li>
+	<ul>
+		<li><a href="https://kb-3d.com/store/voron/6008-ldo-motors-stealth-changer-cnc-shuttle-kit-6975415159350.html">LDO kit CNC Shuttle</a></li>
+		<li><a href="https://www.fysetc.com/products/fysetc-stealthchanger-cnc-shuttle-kit-sb-combo-v2-board-tool-distribution-board-h36-board?variant=44927105040559">Fystec CNC Shuttle</a><br>I got this one, and it comes with pins, N52 magnets, and screws for 6 backplates also!</li>
+		<li><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Print your own</a> <br>These are thicker so you loose a bit more Y in print volume, and they are more flexibile. Just get a CNC shuttle.</li>
+	</ul>
 	</td>
 </tr>
 <tr>
