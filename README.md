@@ -4,7 +4,7 @@ It was difficult to figure out my stealthchanger build, so this is my attempt to
 
 I started with an initial LDO Voron 2.4 300 with Stealthburner toolhead running on CAN (SB2209 CAN RP2040 board), with a Rapido Ace hotend and Galileo2 Extruder. 
 
-Plan is to move slowly to 4 toolheads, mostly dragonburner since it seems well supported by Stealthchadnger already. This assumes you have a working printer that can print ABS or ASA for printing the parts needed for StealthChanger.  
+Plan is to move slowly to 4 toolheads, mostly dragonburner since it seems well supported by Stealthchadnger already. I may also make one Dragonburner, one A4T, one Anthead, etc. to try them out and see how I like each one. 
 
 What worked well for me was to do the following in this order:
 
@@ -22,40 +22,25 @@ What worked well for me was to do the following in this order:
 11. Configure KTE
 12. Calibrate offsets
 13. Calibrate dock locations
+14. Add Additional toolheads and docks
 
 ## Main References
-* DraftShift Design Repositories
 * DraftShift Design Stealthchanger Wiki
+* DraftShift Design Repositories
 * Good [instructions from Cergs](https://github.com/EasterWorks/Cergs-Stealthchanger/blob/main/Hardware-And-Calibration.md) and background found here
-
+	
 ## Main Components & Options
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
+
 <tr>
-	<td valign=top> 
-	**Shuttle**
-	![Fystec shuttle](Images/Fystec_CNC_Shuttle.jpg)
-	</td>
-	<td valign=top> 
-	Recommend a CNC shuttle for rigidity, precision, and you loose less Y-travel. <br> But you can print your own.
-	</td>
-	<td valign=top>
-	</td>
-</tr>
-<tr>
-	<td valign=top> 
+	<td valign=top><strong>Shuttle</strong><br>
+      <img src="Images/Fystec_CNC_Shuttle.jpg" alt="Fystec shuttle" width="220">
 	</td>
 	<td valign=top>
 	</td>
 	<td valign=top>
-	</td>
-</tr>
-<tr>
-	<td valign=top> 
-	</td>
-	<td valign=top>
-	</td>
-	<td valign=top>
+	<ul><li>LDO kit</li>
 	</td>
 </tr>
 <tr>
