@@ -6,6 +6,8 @@ I started with an initial LDO Voron 2.4 300 with Stealthburner toolhead running 
 
 Plan is to move slowly to 4 toolheads, mostly dragonburner since it seems well supported by Stealthchadnger already. I may also make one Dragonburner, one A4T, one Anthead, etc. to try them out and see how I like each one. 
 
+This was originally written in October 2025.  Things change quickly, so it may or may not reflect the state of the art when you read it. 
+
 What worked well for me was to do the following in this order:
 
 1. Decide on what you want to do! Then be prepared to change your mind halfway through, and re-print stuff, take everything apart, and do it again.
@@ -25,11 +27,14 @@ What worked well for me was to do the following in this order:
 14. Add Additional toolheads and docks
 
 ## Main References
-* DraftShift Design Stealthchanger Wiki
-* DraftShift Design Repositories
+* [DraftShift Design Stealthchanger Wiki](https://github.com/DraftShift/StealthChanger/wiki)
+* DraftShift Design Github Repositories
 * Good [instructions from Cergs](https://github.com/EasterWorks/Cergs-Stealthchanger/blob/main/Hardware-And-Calibration.md) and background found here
-	
-## Main Components & Options
+
+
+As you go through deciding what to do, there are many options. and some decisions influence others. The order here is how I'd make decisions because of how everything is connected.
+
+## Shuttle
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
 
@@ -37,7 +42,7 @@ What worked well for me was to do the following in this order:
 	<td valign=top><strong><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Shuttle</a></strong><br>
       <img src="Images/Fystec_CNC_Shuttle.jpg" alt="Fystec shuttle" width="220">
 	</td>
-	<td valign=top>
+	<td valign=top> This is the part that goes on your X carriage to mate and pickup each tool. It will mate with a BACKPLATE that's made specifically for your toolhead. See Toolheads & Backplates below.
 	</td>
 	<td valign=top>
 	<ul>
@@ -55,24 +60,36 @@ What worked well for me was to do the following in this order:
 	<td valign=top>
 	</td>
 </tr>
+</table>
+
+## Toolheads
+People seem to like smaller toolheads for Stealthchanger because you can fit more in the space your'e using. Anthead seems popular. You may build a dock for your existing toolhead (I had a Stealthburner), and then built new toolheads as other types. You can mix and match, but the configs get more complicated because you need to have different ones for each toolhead. For me, you need to calibrate each toolhead anyway, so it seems a good opportunity to try different toolheads.   
+<table>
+<tr><th>Components</th><th>Details</th><th>Options</th></tr>
 <tr>
-	<td valign=top> 
+	<tr>
+	<td valign=top><strong><a href"https://github.com/VoronDesign/Voron-Stealthburner">Stealthburner</a></strong>
 	</td>
-	<td valign=top>
-	</td>
-	<td valign=top>
-	</td>
-</tr>
-<tr>
-	<td valign=top> 
-	</td>
-	<td valign=top>
+	<td valign=top>Supported, but wider than others. Can work fine. Needs work on umbilical attachment.
 	</td>
 	<td valign=top>
 	</td>
 </tr>
 </table>
 
+## Docking Method
+<table>
+<tr><th>Components</th><th>Details</th><th>Options</th></tr>
+
+<tr>
+	<tr>
+	<td valign=top> 
+	</td>
+	<td valign=top>
+	</td>
+	<td valign=top>
+	</td>
+</tr>
 
 ## Docking / Door Buffer / etc
 * Door buffer & crossbar, default from Draftshift
