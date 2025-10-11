@@ -42,7 +42,7 @@ As you go through deciding what to do, there are many options. and some decision
       <img src="Images/Fystec_CNC_Shuttle.jpg" alt="Fystec shuttle" width="220">
 	</td>
 	<td valign=top> This is the part that goes on your X carriage to mate and pickup each tool. It will mate with a BACKPLATE that's made specifically for your toolhead. See Toolheads & Backplates below. <br>
-	Print [BeltHelper](https://github.com/DraftShift/StealthChanger/tree/main/STLs/Extras/BeltHelper) to help make this easier!
+	Print <a href="https://github.com/DraftShift/StealthChanger/tree/main/STLs/Extras/BeltHelper">BeltHelper</a> to help make this easier!
 	</td>
 	<td valign=top>
 	<ul>
@@ -67,7 +67,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
 	<tr>
-	<td valign=top><strong><a href"">[Anthead](https://github.com/PrintersForAnts/AntHead/tree/main)</a></strong>
+	<td valign=top><strong><a href"https://github.com/PrintersForAnts/AntHead/tree/main">AntHead</a></strong>
 	</td>
 	<td valign=top>Seems most popular and modern. Maybe harder to build?
 	</td>
@@ -75,7 +75,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	</tr>
 		<tr>
-	<td valign=top><strong><a href"">[A4T](https://github.com/Armchair-Heavy-Industries/A4T?tab=readme-ov-file)</a></strong>
+	<td valign=top><strong><a href"https://github.com/Armchair-Heavy-Industries/A4T?tab=readme-ov-file">A4T</a></strong>
 	</td>
 	<td valign=top>Slightly less supported with mods, but performance is supposed to be good.
 	</td>
@@ -86,7 +86,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	</tr>
 		<tr>
-	<td valign=top><strong><a href"">[Yavoth](https://github.com/chirpy2605/voron/tree/main/V0/Yavoth)</a></strong>
+	<td valign=top><strong><a href"https://github.com/chirpy2605/voron/tree/main/V0/Yavoth">Yavoth</a></strong>
 	</td>
 	<td valign=top>Uses 60mm wide docks.  Can it use stubby docks?
 	</td>
