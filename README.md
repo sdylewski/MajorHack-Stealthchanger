@@ -1,6 +1,6 @@
 # Stealthchanger
 ## Introduction
-It was difficult to figure out my stealthchanger build, so this is my attempt to define a standard build that works and correct a lot of the errors in the documentation.
+It was difficult to figure out my stealthchanger build, so this is my attempt to help organize the workflow, options, and decisions needed.
 
 I started with an initial LDO Voron 2.4 300 with Stealthburner toolhead running on CAN (SB2209 CAN RP2040 board), with a Rapido Ace hotend and Galileo2 Extruder. 
 
@@ -10,7 +10,7 @@ This was originally written in October 2025.  Things change quickly, so it may o
 
 What worked well for me was to do the following in this order:
 
-1. Decide on what you want to do! Then be prepared to change your mind halfway through, and re-print stuff, take everything apart, and do it again.
+1. Decide on what you want to do! Then be prepared to change your mind halfway through, and re-print some stuff, take everything apart, and do it again.
 2. Upgrade to CAN or USB toolhead board for primary toolhead. 
 2. Install CAN or USB distribution board and "backpack"
 3. Install umbilical cable to primary toolhead (T0)
@@ -37,7 +37,6 @@ As you go through deciding what to do, there are many options. and some decision
 ## Shuttle
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
-
 <tr>
 	<td valign=top><strong><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Shuttle</a></strong><br>
       <img src="Images/Fystec_CNC_Shuttle.jpg" alt="Fystec shuttle" width="220">
@@ -68,9 +67,28 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
 	<tr>
-	<td valign=top><strong><a href"https://github.com/VoronDesign/Voron-Stealthburner">Stealthburner</a></strong>
+	<td valign=top><strong><a href"">[Anthead](https://github.com/PrintersForAnts/AntHead/tree/main)</a></strong>
 	</td>
-	<td valign=top>Supported, but wider than others. Can work fine. Needs work on umbilical attachment.
+	<td valign=top>Seems most popular and modern. Maybe harder to build?
+	</td>
+	<td valign=top>Uses 60mm wide docks. Can use stubby docks?
+	</td>
+	</tr>
+		<tr>
+	<td valign=top><strong><a href"">[A4T](https://github.com/Armchair-Heavy-Industries/A4T?tab=readme-ov-file)</a></strong>
+	</td>
+	<td valign=top>Slightly less supported with mods, but performance is supposed to be good.
+	</td>
+	<td valign=top><ul><li>
+	Requires Shorter Z joints like [Ge5C z-joints](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C) so you don't bottom out your carriage when homing.</li>
+		<li>Requires new smaller front idlers like the [BFI](https://github.com/clee/VoronBFI)</li>
+	</ul>
+	</td>
+	</tr>
+		<tr>
+	<td valign=top><strong><a href"">[Yavoth](https://github.com/chirpy2605/voron/tree/main/V0/Yavoth)</a></strong>
+	</td>
+	<td valign=top>Uses 60mm wide docks.  Can it use stubby docks?
 	</td>
 	<td valign=top>
 	</td>
@@ -78,29 +96,21 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 		<tr>
 	<td valign=top><strong><a href"">Dragonburner</a></strong>
 	</td>
-	<td valign=top>Good choice.
+	<td valign=top>Uses 60mm wide docks. Can use stubby docks. 
 	</td>
 	<td valign=top>
 	</td>
 	</tr>
 		<tr>
-	<td valign=top><strong><a href"">Anthead</a></strong>
+	<td valign=top><strong><a href"https://github.com/VoronDesign/Voron-Stealthburner">Stealthburner</a></strong>
 	</td>
-	<td valign=top>Seems like a popular choice
+	<td valign=top>Can work fine. Needs 76mm wide dock. Docking is a bit harder, but mine seems fine. Needs work on umbilical attachment for 3mm spring steel umbuilical from N3MI.
 	</td>
 	<td valign=top>
 	</td>
 	</tr>
-			<tr>
-	<td valign=top><strong><a href"">A4T</a></strong>
-	</td>
-	<td valign=top>Slightly less supported with mods, but performance is supposed to be good.
-	</td>
-	<td valign=top><ul><li>
-	Requires Shorter Z joints like [Ge5C z-joints](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C) so you don't bottom out your carriage when homing.</li>
-	</ul>
-	</td>
-	</tr>
+
+
 </table>
 
 ## Docking Method
