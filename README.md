@@ -107,7 +107,10 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	<td valign=top>Can work fine. Needs 76mm wide dock. Docking is a bit harder, but mine seems fine. Needs work on umbilical attachment for 3mm spring steel umbuilical from N3MI.
 	</td>
-	<td valign=top>
+	<td valign=top><ul>
+		<li>Recommend the <a href="https://www.printables.com/model/1384948-stealthchanger-stealthburner-backplate-v11-magnet">screw-in backplate mod</a> for better 4mm pin positioning</li>
+		<li>and magnetic backplate (same file above) for better control of stealthburner on dock.</li>
+		</ul>
 	</td>
 	</tr>
 
