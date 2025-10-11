@@ -67,7 +67,8 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
 	<tr>
-	<td valign=top><strong><a href"https://github.com/PrintersForAnts/AntHead/tree/main">AntHead</a></strong>
+	<td valign=top><strong>
+		<a href="https://github.com/PrintersForAnts/AntHead/tree/main">AntHead</a> </strong>
 	</td>
 	<td valign=top>Seems most popular and modern. Maybe harder to build?
 	</td>
@@ -75,7 +76,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	</tr>
 		<tr>
-	<td valign=top><strong><a href"https://github.com/Armchair-Heavy-Industries/A4T?tab=readme-ov-file">A4T</a></strong>
+	<td valign=top><strong><a href="https://github.com/Armchair-Heavy-Industries/A4T?tab=readme-ov-file">A4T</a></strong>
 	</td>
 	<td valign=top>Slightly less supported with mods, but performance is supposed to be good.
 	</td>
@@ -86,7 +87,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	</tr>
 		<tr>
-	<td valign=top><strong><a href"https://github.com/chirpy2605/voron/tree/main/V0/Yavoth">Yavoth</a></strong>
+	<td valign=top><strong><a href="https://github.com/chirpy2605/voron/tree/main/V0/Yavoth">Yavoth</a></strong>
 	</td>
 	<td valign=top>Uses 60mm wide docks.  Can it use stubby docks?
 	</td>
@@ -94,7 +95,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	</tr>
 		<tr>
-	<td valign=top><strong><a href"">Dragonburner</a></strong>
+	<td valign=top><strong><a href="">Dragonburner</a></strong>
 	</td>
 	<td valign=top>Uses 60mm wide docks. Can use stubby docks. 
 	</td>
@@ -102,7 +103,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	</tr>
 		<tr>
-	<td valign=top><strong><a href"https://github.com/VoronDesign/Voron-Stealthburner">Stealthburner</a></strong>
+	<td valign=top><strong><a href="https://github.com/VoronDesign/Voron-Stealthburner">Stealthburner</a></strong>
 	</td>
 	<td valign=top>Can work fine. Needs 76mm wide dock. Docking is a bit harder, but mine seems fine. Needs work on umbilical attachment for 3mm spring steel umbuilical from N3MI.
 	</td>
