@@ -42,7 +42,8 @@ As you go through deciding what to do, there are many options. and some decision
 	<td valign=top><strong><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Shuttle</a></strong><br>
       <img src="Images/Fystec_CNC_Shuttle.jpg" alt="Fystec shuttle" width="220">
 	</td>
-	<td valign=top> This is the part that goes on your X carriage to mate and pickup each tool. It will mate with a BACKPLATE that's made specifically for your toolhead. See Toolheads & Backplates below.
+	<td valign=top> This is the part that goes on your X carriage to mate and pickup each tool. It will mate with a BACKPLATE that's made specifically for your toolhead. See Toolheads & Backplates below. <br>
+	Print [BeltHelper](https://github.com/DraftShift/StealthChanger/tree/main/STLs/Extras/BeltHelper) to help make this easier!
 	</td>
 	<td valign=top>
 	<ul>
@@ -63,10 +64,9 @@ As you go through deciding what to do, there are many options. and some decision
 </table>
 
 ## Toolheads
-People seem to like smaller toolheads for Stealthchanger because you can fit more in the space your'e using. Anthead seems popular. You may build a dock for your existing toolhead (I had a Stealthburner), and then built new toolheads as other types. You can mix and match, but the configs get more complicated because you need to have different ones for each toolhead. For me, you need to calibrate each toolhead anyway, so it seems a good opportunity to try different toolheads.   
+People seem to like smaller toolheads for Stealthchanger because you can fit more in the space your'e using. Anthead seems popular. You may build a dock for your existing toolhead (I had a Stealthburner), and then built new toolheads as other types. You can mix and match, but the configs get more complicated because you need to have different ones for each toolhead. For me, you need to calibrate each toolhead anyway, so it seems a good opportunity to try different toolheads. The list here is just the options I'm interested in.  StealthChanger supports other toolheads also!
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
-<tr>
 	<tr>
 	<td valign=top><strong><a href"https://github.com/VoronDesign/Voron-Stealthburner">Stealthburner</a></strong>
 	</td>
@@ -74,7 +74,33 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	<td valign=top>
 	</td>
-</tr>
+	</tr>
+		<tr>
+	<td valign=top><strong><a href"">Dragonburner</a></strong>
+	</td>
+	<td valign=top>Good choice.
+	</td>
+	<td valign=top>
+	</td>
+	</tr>
+		<tr>
+	<td valign=top><strong><a href"">Anthead</a></strong>
+	</td>
+	<td valign=top>Seems like a popular choice
+	</td>
+	<td valign=top>
+	</td>
+	</tr>
+			<tr>
+	<td valign=top><strong><a href"">A4T</a></strong>
+	</td>
+	<td valign=top>Slightly less supported with mods, but performance is supposed to be good.
+	</td>
+	<td valign=top><ul><li>
+	Requires Shorter Z joints like [Ge5C z-joints](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C) so you don't bottom out your carriage when homing.</li>
+	</ul>
+	</td>
+	</tr>
 </table>
 
 ## Docking Method
@@ -88,7 +114,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	<td valign=top>
 	</td>
 	<td valign=top>
-	</td>
+	</td></tr>
 </tr>
 
 ## Docking / Door Buffer / etc
