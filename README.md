@@ -82,7 +82,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</td>
 	<td valign=top><ul><li>
 	Requires Shorter Z joints like [Ge5C z-joints](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C) so you don't bottom out your carriage when homing.</li>
-		<li>Requires new smaller front idlers like the [BFI](https://github.com/clee/VoronBFI)</li>
+		<li>Requires new smaller front idlers like the <a href="https://github.com/clee/VoronBFI">BFI</a> or <a href="https://github.com/DraftShift/StealthChanger/tree/main/UserMods/BT123/MiniBFI%20%2B%20MicroBFI">Mini BFI</a></li>
 	</ul>
 	</td>
 	</tr>
