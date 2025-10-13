@@ -4,7 +4,7 @@ It was difficult to figure out my stealthchanger build, so this is my attempt to
 
 I started with an initial LDO Voron 2.4 300 with Stealthburner toolhead running on CAN (SB2209 CAN RP2040 board), with a Rapido Ace hotend and Galileo2 Extruder. 
 
-Plan is to move slowly to 4 toolheads, mostly dragonburner since it seems well supported by Stealthchadnger already. I may also make one Dragonburner, one A4T, one Anthead, etc. to try them out and see how I like each one. 
+Plan is to move slowly to 4 toolheads, mostly dragonburner since it seems well supported by Stealthchanger already. I may also make one Dragonburner, one A4T, one Anthead, etc. to try them out and see how I like each one. 
 
 This was originally written in October 2025.  Things change quickly, so it may or may not reflect the state of the art when you read it. 
 
@@ -54,16 +54,19 @@ I recommend the following:
 		</ul></td></tr>
 	<tr><td><a href="https://github.com/DraftShift/CableManagement/tree/main/UserMods/N3MI-DG/Umbilical_plates_V2">Exhaust Plate</a><br>
 		<img src="Images/FP_exhaust_plate.png" width=200></td>
-		<td><ul><li><a href="https://github.com/DraftShift/CableManagement/tree/main/UserMods/N3MI-DG/Umbilical_plates_V2">N3MI's Umbilical plate mod</a></li>
+		<td><ul><li>Use <a href="https://github.com/DraftShift/CableManagement/tree/main/UserMods/N3MI-DG/Umbilical_plates_V2">N3MI's Umbilical plate mod</a></li>
 			<li>Pick the exhaust plate you want</li>
 			<li>I used the TPU cable relief plugs and umbilical holders, and they worked well. There are also PG7 cable gland versions</li>
 			<li>The flat 3mm spring steel is recommended over the piano wire</li>
 			<li>Note the 3mm flat spring steel doesn't get screwed into the exhaust plate when using TPU cable relief.  It just wraps around the plug.</li>
 			<li>There are SV08 versions in the user mods also</li>
+			<li>I used the <a href="https://www.aliexpress.us/item/3256807340794999.html">Mellow 18AWG CAN cable, and was able to wire 2 toolheads with one cable length.
 			<li>Since the cables are angled downward over the electronics, you can't use the
 				<a href="https://github.com/DraftShift/CableManagement/blob/main/FannyPack/STLs/%5Ba%5D_sc_voron_cover.stl">Fanny Pack Cover</a> with this.</li>
 		</ul></td></tr>
-	
+	<tr><td>Cables<br></td>
+		<td><ul><li>I used the <a href="https://www.aliexpress.us/item/3256807340794999.html">Mellow 18AWG CAN cable, and was able to wire 2 toolheads with one cable length.
+		</ul></td></tr>
 </table>
 
 You need to be able to talk to all your toolheads. CAN bus is recommended.  It seems USB is possible also with the Fystec Hexa Distro Fusion board.  
