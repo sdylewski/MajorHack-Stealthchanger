@@ -37,6 +37,33 @@ What worked well for me was to do the following in this order:
 
 As you go through deciding what to do, there are many options. and some decisions influence others. The order here is how I'd make decisions because of how everything is connected.
 ## Cable management
+The Stealthchanger mounts a cable distribution board on the back of the printer, usually, using a "[Fanny Pack](https://github.com/DraftShift/CableManagement/blob/main/FannyPack/README.md)", but the documentation is a bit outdated or missing in places. 
+<br>
+<img src="Images/Fanny_Pack.png" width=400><br>
+I recommend the following:
+<table>
+	<tr><th>Fanny pack BOM</th><th>Notes</th></tr>
+	<tr><td><a href="https://github.com/DraftShift/CableManagement/blob/main/FannyPack/STLs/base.stl">Fanny Pack Base</a><br>
+		<img src="Images/FP_Base.png" width=200></td>
+		<td><ul><li>Only one option here</li>
+			<li>This gets stuck to the back of your printer using VHB double-sided tape</li>
+		</ul></td></tr>
+	<tr><td><a href="https://github.com/DraftShift/CableManagement/tree/main/FannyPack/STLs/brackets/main">PCB Bracket</a><br>
+		<img src="FP_pcb_adapter.png" width=200></td>
+		<td><ul><li>PCB Bracket for your board</li>
+		</ul></td></tr>
+	<tr><td><a href=""></a><br>
+		<img src="" width=200></td>
+		<td><ul><li>Note</li>
+			<li>Note2</li>
+		</ul></td></tr>
+	<tr><td><a href=""></a><br>
+		<img src="" width=200></td>
+		<td><ul><li>Note</li>
+			<li>Note2</li>
+		</ul></td></tr>
+</table>
+
 You need to be able to talk to all your toolheads. CAN is recommended.  It seems USB is possible also.  
 <table>
 	<tr><th>Distribution board</th><th>Notes</th></tr>
@@ -56,26 +83,18 @@ You need to be able to talk to all your toolheads. CAN is recommended.  It seems
 			<li>Cheapest option?</li>
 			<li>Really bad documentation, <a href="https://github.com/FYSETC/Tool-Distribution-Board/blob/main/TBD%20Wiring.jpg">only one image for documentation</a>. Be careful with power polarity!</li>
 		</ul></td></tr>
+	<tr><td><a href="https://store.isiks.tech/products/birds-nest-can">Birds' nest CAN hub by Isik's Tech</a><br>
+		<img src="Images/Birds_nest_CAN.png" width=200></td>
+		<td><ul><li>6 CAN ports</li>
+			<li>6 filament sensor ports</li>
+			<li>6 Thermistor ports</li>
+			<li>Additional expansion ports</li>
+			<li>2x 5V ARGB connectors</li>
+		</ul></td></tr>
 	<tr><td><a href="">USB-CAN board</a><br></td><td>If needed, I used the Fystec USB-CAN board because my Octopus 1.1 didn't have CAN onboard, or it was hard to get working.  I tried the BTT CAN borad, but never got it working.  The Fystec worked for me.</td></tr>
 </table>
 <br>
-The Stealthchanger mounts the distribution board on the back of the printer, usually, using a "  
-<table>
-	<tr><th>Distribution board</th><th>Notes</th></tr>
-	<tr><td><a href="https://docs.ldomotors.com/en/Toolboard/Nitehawk-Hexa">LDO Nighthawk Hexa</a><br>
-		<img src="Images/nitehawk_hexa_3.jpg" width=200></td>
-		<td><ul><li>Comes in LDO kit</li>
-			<li>CAN only</li>
-		</ul></td></tr>
-	<tr><td><a href="https://wiki.fysetc.com/docs/hexa_distro_fusion">Fystec hexa distro fusion</a><br>
-		<img src="Images/Fystec_hexa_distro_fusion.png" width=200></td>
-		<td><ul><li>6 USB and CAN ports</li>
-			<li>Extra fan ports & IOs</li>
-		</td></ul></tr>
-	<tr><td><a href="">Fystec CAN Distrobution board</a><br>
-		<img src="Images/Fystec_can_distribution.jpg" width=200></td><td>Simplest of the three. Just CAN distribution and power. Cheapest also?</td></tr>
-	<tr><td><a href="">USB-CAN board</a><br></td><td>If needed, I used the Fystec USB-CAN board because my Octopus 1.1 didn't have CAN onboard, or it was hard to get working.  I tried the BTT CAN borad, but never got it working.  The Fystec worked for me.</td></tr>
-</table>
+
 
 ## Shuttle
 <table>
