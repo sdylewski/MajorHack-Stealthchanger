@@ -39,7 +39,6 @@ As you go through deciding what to do, there are many options. and some decision
 ## Cable management
 The Stealthchanger mounts a cable distribution board on the back of the printer, usually, using a "[Fanny Pack](https://github.com/DraftShift/CableManagement/blob/main/FannyPack/README.md)", but the documentation is a bit outdated or missing in places. 
 <br>
-<img src="Images/Fanny_Pack.png" width=400><br>
 I recommend the following:
 <table>
 	<tr><th>Fanny pack BOM</th><th>Notes</th></tr>
@@ -53,7 +52,7 @@ I recommend the following:
 		<td><ul><li>PCB Bracket for your board</li>
 		</ul></td></tr>
 	<tr><td><a href="https://github.com/DraftShift/CableManagement/tree/main/UserMods/N3MI-DG/Umbilical_plates_V2">Exhaust Plate</a><br>
-		<img src="Images/FP_exhaust_plate.png" width=200></td>
+		<img src="Images/Fanny_Pack.png" width=200></td>
 		<td><ul><li>Use <a href="https://github.com/DraftShift/CableManagement/tree/main/UserMods/N3MI-DG/Umbilical_plates_V2">N3MI's Umbilical plate mod</a></li>
 			<li>Pick the exhaust plate you want</li>
 			<li>I used the TPU cable relief plugs and umbilical holders, and they worked well. There are also PG7 cable gland versions</li>
@@ -64,12 +63,14 @@ I recommend the following:
 			<li>Since the cables are angled downward over the electronics, you can't use the
 				<a href="https://github.com/DraftShift/CableManagement/blob/main/FannyPack/STLs/%5Ba%5D_sc_voron_cover.stl">Fanny Pack Cover</a> with this.</li>
 		</ul></td></tr>
-	<tr><td>Cables<br></td>
+	<tr><td>Cable & tubing assembly<br></td>
 		<td><ul><li>I used the <a href="https://www.aliexpress.us/item/3256807340794999.html">Mellow 18AWG CAN cable, and was able to wire 2 toolheads with one cable length.
+		<li>This cable uses the 5.5mm TPU hole sizes on N3MI's cable relief parts.</li>
+		<li>2.5mm ID, 4mm OD PTFE tubing (I was using 3mm ID tubing to my toolhead and was getting random filament not moving errors, but it could have been due to other factors also)</li>
 		</ul></td></tr>
 </table>
 
-You need to be able to talk to all your toolheads. CAN bus is recommended.  It seems USB is possible also with the Fystec Hexa Distro Fusion board.  
+You need to be able to talk to all your toolheads. CAN bus is recommended. Pick one of these below. It seems USB is possible also with the Fystec Hexa Distro Fusion board.  
 <table>
 	<tr><th>Distribution board</th><th>Notes</th></tr>
 	<tr><td><a href="https://docs.ldomotors.com/en/Toolboard/Nitehawk-Hexa">LDO Nighthawk Hexa</a><br>
@@ -100,33 +101,27 @@ You need to be able to talk to all your toolheads. CAN bus is recommended.  It s
 </table>
 <br>
 
-
 ## Shuttle
+This is the part that goes on your X carriage to mate and pickup each tool. It will mate with a BACKPLATE that's made specifically for your toolhead. See Toolheads & Backplates below. <br>
+Print <a href="https://github.com/DraftShift/StealthChanger/tree/main/STLs/Extras/BeltHelper">BeltHelper</a> to help make this easier!<br>
+See <a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Draftshift Shuttle page</a> for printing, tuning, and assembly tips.
 <table>
-<tr><th>Components</th><th>Details</th><th>Options</th></tr>
-<tr>
-	<td valign=top><strong><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Shuttle</a></strong><br>
-      <img src="Images/Fystec_CNC_Shuttle.jpg" alt="Fystec shuttle" width="220">
-	</td>
-	<td valign=top> This is the part that goes on your X carriage to mate and pickup each tool. It will mate with a BACKPLATE that's made specifically for your toolhead. See Toolheads & Backplates below. <br>
-	Print <a href="https://github.com/DraftShift/StealthChanger/tree/main/STLs/Extras/BeltHelper">BeltHelper</a> to help make this easier!
-	</td>
-	<td valign=top>
-	<ul>
-		<li><a href="https://kb-3d.com/store/voron/6008-ldo-motors-stealth-changer-cnc-shuttle-kit-6975415159350.html">LDO kit CNC Shuttle</a></li>
-		<li><a href="https://www.fysetc.com/products/fysetc-stealthchanger-cnc-shuttle-kit-sb-combo-v2-board-tool-distribution-board-h36-board?variant=44927105040559">Fystec CNC Shuttle</a><br>I got this one, and it comes with pins, N52 magnets, and screws for 6 backplates also!</li>
-		<li><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Print your own</a> <br>These are thicker so you loose a bit more Y in print volume, and they are more flexibile. Just get a CNC shuttle.</li>
-	</ul>
-	</td>
-</tr>
-<tr>
-	<td valign=top> 
-	</td>
-	<td valign=top>
-	</td>
-	<td valign=top>
-	</td>
-</tr>
+<tr><th>Shuttle Options</th><th>Details</th></tr>
+<tr><td><a href="https://www.fysetc.com/products/fysetc-stealthchanger-cnc-shuttle-kit-sb-combo-v2-board-tool-distribution-board-h36-board?variant=44927105040559">Fystec CNC Shuttle</a><br>
+		<img src="Images/Fystec_CNC_Shuttle.jpg" width=200></td><td>
+			<ul><li>I have this one, and it works well</li>
+			<li>It comes with pins, N52 magnets, and screws for 6 backplates also!</li>
+		</ul></td></tr>
+<tr><td><a href="https://kb-3d.com/store/voron/6008-ldo-motors-stealth-changer-cnc-shuttle-kit-6975415159350.html">LDO Kit CNC Shuttle</a><br>
+		<img src="Images/" width=200></td><td>
+			<ul><li>Not sure what comes with this kit</li>
+		</ul></td></tr>
+<tr><td><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Print your own</a><br>
+		<img src="Images/" width=200></td><td>
+			<ul><li>These are thicker so you loose a bit more Y in print volume, and they are more flexibile</li>
+			<li>Just get a CNC shuttle!</li>
+		</ul></td></tr>
+
 </table>
 
 ## Toolheads
