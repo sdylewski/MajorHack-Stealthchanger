@@ -49,22 +49,24 @@ I recommend the following:
 			<li>This gets stuck to the back of your printer using VHB double-sided tape</li>
 		</ul></td></tr>
 	<tr><td><a href="https://github.com/DraftShift/CableManagement/tree/main/FannyPack/STLs/brackets/main">PCB Bracket</a><br>
-		<img src="FP_pcb_adapter.png" width=200></td>
+		<img src="Images/FP_pcb_adapter.png" width=200></td>
 		<td><ul><li>PCB Bracket for your board</li>
 		</ul></td></tr>
-	<tr><td><a href=""></a><br>
-		<img src="" width=200></td>
-		<td><ul><li>Note</li>
-			<li>Note2</li>
+	<tr><td><a href="https://github.com/DraftShift/CableManagement/tree/main/UserMods/N3MI-DG/Umbilical_plates_V2">Exhaust Plate</a><br>
+		<img src="Images/FP_exhaust_plate.png" width=200></td>
+		<td><ul><li><a href="https://github.com/DraftShift/CableManagement/tree/main/UserMods/N3MI-DG/Umbilical_plates_V2">N3MI's Umbilical plate mod</a></li>
+			<li>Pick the exhaust plate you want</li>
+			<li>I used the TPU cable relief plugs and umbilical holders, and they worked well. There are also PG7 cable gland versions</li>
+			<li>The flat 3mm spring steel is recommended over the piano wire</li>
+			<li>Note the 3mm flat spring steel doesn't get screwed into the exhaust plate when using TPU cable relief.  It just wraps around the plug.</li>
+			<li>There are SV08 versions in the user mods also</li>
+			<li>Since the cables are angled downward over the electronics, you can't use the
+				<a href="https://github.com/DraftShift/CableManagement/blob/main/FannyPack/STLs/%5Ba%5D_sc_voron_cover.stl">Fanny Pack Cover</a> with this.</li>
 		</ul></td></tr>
-	<tr><td><a href=""></a><br>
-		<img src="" width=200></td>
-		<td><ul><li>Note</li>
-			<li>Note2</li>
-		</ul></td></tr>
+	
 </table>
 
-You need to be able to talk to all your toolheads. CAN is recommended.  It seems USB is possible also.  
+You need to be able to talk to all your toolheads. CAN bus is recommended.  It seems USB is possible also with the Fystec Hexa Distro Fusion board.  
 <table>
 	<tr><th>Distribution board</th><th>Notes</th></tr>
 	<tr><td><a href="https://docs.ldomotors.com/en/Toolboard/Nitehawk-Hexa">LDO Nighthawk Hexa</a><br>
