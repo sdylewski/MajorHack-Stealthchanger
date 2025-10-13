@@ -180,7 +180,7 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 	</ul></td></tr>
 	
 <tr>
-	<td valign=top><strong><a href="https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner">Dragonburner<br><img src="Dragonburner.png" width=200></a></strong>
+	<td valign=top><strong><a href="https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner">Dragonburner<br><img src="Images/Dragonburner.png" width=200></a></strong>
 	</td>
 	<td valign=top><ul><li>Uses 60mm wide docks. Can use stubby docks. </li>
 	<li><a href="https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20and%20V1.2%20(STM32G0B1)/EBB36%20CAN%20V1.1%20and%20V1.2/Hardware/EBB36%20CAN%20V1.1%26V1.2-PIN.png">EBB36 CAN Toolhead Board</a>, using UserMod <a href="https://github.com/DraftShift/StealthChanger/tree/main/UserMods/TheSin-/PCB36_Mount">TheSin PCB36 Mount</a></li>
