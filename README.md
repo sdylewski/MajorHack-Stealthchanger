@@ -1,4 +1,4 @@
-# Stealthchanger
+# Stealthchanger Guide
 ## Introduction
 It was difficult to figure out my stealthchanger build, so this is my attempt to help organize the workflow, options, and decisions needed.
 
@@ -11,7 +11,8 @@ This was originally written in October 2025.  Things change quickly, so it may o
 What worked well for me was to do the following in this order:
 
 1. Decide on what you want to do! Then be prepared to change your mind halfway through, and re-print some stuff, take everything apart, and do it again.
-2. Upgrade to CAN or USB toolhead board for primary toolhead. 
+2. Order a bunch of parts.  Wait a week or two while reading and doing more planning.
+3. Upgrade to CAN or USB toolhead board for primary toolhead if you don't already have it. 
 2. Install CAN or USB distribution board and "backpack"
 3. Install umbilical cable to primary toolhead (T0)
 4. Install CNC shuttle and backplate for your toolhead
@@ -28,11 +29,53 @@ What worked well for me was to do the following in this order:
 
 ## Main References
 * [DraftShift Design Stealthchanger Wiki](https://github.com/DraftShift/StealthChanger/wiki)
+  ** NOTE: The wiki is great, but the pages listed on the right are alphabetical, NOT in the order you should be working from. You should follow the order of the [Checklist page](https://github.com/DraftShift/StealthChanger/wiki/Checklist)!
 * DraftShift Design Github Repositories
+* UserMods for each Repo.
 * Good [instructions from Cergs](https://github.com/EasterWorks/Cergs-Stealthchanger/blob/main/Hardware-And-Calibration.md) and background found here
 
 
 As you go through deciding what to do, there are many options. and some decisions influence others. The order here is how I'd make decisions because of how everything is connected.
+## Cable management
+You need to be able to talk to all your toolheads. CAN is recommended.  It seems USB is possible also.  
+<table>
+	<tr><th>Distribution board</th><th>Notes</th></tr>
+	<tr><td><a href="https://docs.ldomotors.com/en/Toolboard/Nitehawk-Hexa">LDO Nighthawk Hexa</a><br>
+		<img src="Images/nitehawk_hexa_3.jpg" width=200></td>
+		<td><ul><li>Comes in LDO kit</li>
+			<li>CAN only</li>
+		</ul></td></tr>
+	<tr><td><a href="https://wiki.fysetc.com/docs/hexa_distro_fusion">Fystec hexa distro fusion</a><br>
+		<img src="Images/Fystec_hexa_distro_fusion.png" width=200></td>
+		<td><ul><li>6 USB and CAN ports</li>
+			<li>Extra fan ports & IOs</li>
+		</ul></td></tr>
+	<tr><td><a href="">Fystec CAN Distrobution board</a><br>
+		<img src="Images/Fystec_can_distribution.jpg" width=200></td><td><ul><li>Simplest of the three</li>
+			<li>Just CAN distribution and power</li>
+			<li>Cheapest option?</li>
+			<li>Really bad documentation, <a href="https://github.com/FYSETC/Tool-Distribution-Board/blob/main/TBD%20Wiring.jpg">only one image for documentation</a>. Be careful with power polarity!</li>
+		</ul></td></tr>
+	<tr><td><a href="">USB-CAN board</a><br></td><td>If needed, I used the Fystec USB-CAN board because my Octopus 1.1 didn't have CAN onboard, or it was hard to get working.  I tried the BTT CAN borad, but never got it working.  The Fystec worked for me.</td></tr>
+</table>
+<br>
+The Stealthchanger mounts the distribution board on the back of the printer, usually, using a "  
+<table>
+	<tr><th>Distribution board</th><th>Notes</th></tr>
+	<tr><td><a href="https://docs.ldomotors.com/en/Toolboard/Nitehawk-Hexa">LDO Nighthawk Hexa</a><br>
+		<img src="Images/nitehawk_hexa_3.jpg" width=200></td>
+		<td><ul><li>Comes in LDO kit</li>
+			<li>CAN only</li>
+		</ul></td></tr>
+	<tr><td><a href="https://wiki.fysetc.com/docs/hexa_distro_fusion">Fystec hexa distro fusion</a><br>
+		<img src="Images/Fystec_hexa_distro_fusion.png" width=200></td>
+		<td><ul><li>6 USB and CAN ports</li>
+			<li>Extra fan ports & IOs</li>
+		</td></ul></tr>
+	<tr><td><a href="">Fystec CAN Distrobution board</a><br>
+		<img src="Images/Fystec_can_distribution.jpg" width=200></td><td>Simplest of the three. Just CAN distribution and power. Cheapest also?</td></tr>
+	<tr><td><a href="">USB-CAN board</a><br></td><td>If needed, I used the Fystec USB-CAN board because my Octopus 1.1 didn't have CAN onboard, or it was hard to get working.  I tried the BTT CAN borad, but never got it working.  The Fystec worked for me.</td></tr>
+</table>
 
 ## Shuttle
 <table>
@@ -113,14 +156,15 @@ People seem to like smaller toolheads for Stealthchanger because you can fit mor
 		</ul>
 	</td>
 	</tr>
-
-
 </table>
+
+Toolhead PCBs:  
+For EBB36 / Nighthawk 36 / 
+https://github.com/jwellman80/VoronMods/tree/main/EBB36%20Umbilical%20Clip%20Mount
 
 ## Docking Method
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
-
 <tr>
 	<tr>
 	<td valign=top> 
