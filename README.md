@@ -135,9 +135,10 @@ A crossbar is recommended for stability, but there are options for how to mount 
 			<ul><li>Least sturdy option</li>
 			<li>Requires several printed braces & links to help stabilize the docks</li>
 			<li>I haven't tried this, and don't see too many others doing it either</li>
+			<li>No need for <a href="https://github.com/DraftShift/DoorBuffer">door buffer</a>?</li>
 		</ul></td></tr>
 	<tr><td>Crossbar mounted outside front extrusions<br>
-		<img src="Images/Dock_outside.png" width=200></td><td>
+		<img src="Images/LDO_Dock.png" width=200></td><td>
 			<ul><li>Probably the most common setup</li>
 				<li>Strongest setup (least dock movement potential)</li>
 			<li>Requires a <a href="https://github.com/DraftShift/DoorBuffer">door buffer</a> so your door will still have something flat on the front of the printer</li>
@@ -146,13 +147,15 @@ A crossbar is recommended for stability, but there are options for how to mount 
 	<tr><td>Crossbar mounted <em>between</em> front extrusions<br>
 		<img src="Images/Dock_crabby.png" width=200></td><td>
 			<ul><li>Needs tight bolts to keep from rotating</li>
-			<li>No need for door buffer</li>
+			<li>Front idlers will hit the crossbar, so you need to change idlers to use the <a href="https://github.com/DraftShift/StealthChanger/tree/main/UserMods/BT123/MiniBFI%20%2B%20MicroBFI">MiniBFI</a>.
+			<li>No need for <a href="https://github.com/DraftShift/DoorBuffer">door buffer</a></li>
 			<li>20mm less Y build space unless you use shorter "stubby" docks.  Even with stubby docks, I think the Y build space is 10mm less than the outside-mounted crossbar</li>
 			<li>Image from @drakarah and <a href="https://www.printables.com/model/994635-stealthchanger-stealthburner-minimal-docks-aka-hap/comments">Happy Crab Docks</a></li>
 		</ul></td></tr>
 </table>
 
-* Door buffer & crossbar, default from Draftshift
+## Door Buffer
+
 * [Dragonburner magnetic docks](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) (not in github, only Discord)
 * option:  replace front xy idlers: [Beefy Front Idlers](https://github.com/clee/VoronBFI)
 * Looks like I should try to change my idlers to [MiniBFI](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/BT123/MiniBFI%20%2B%20MicroBFI)
