@@ -70,7 +70,7 @@ I recommend the following:
 		</ul></td></tr>
 </table>
 
-You need to be able to talk to all your toolheads. CAN bus is recommended. Pick one of these below. It seems USB is possible also with the Fystec Hexa Distro Fusion board.  
+You need to be able to talk to all your toolheads. CAN bus is recommended. It seems USB is possible also with the Fystec Hexa Distro Fusion board. Pick one of these below.
 <table>
 	<tr><th>Distribution board</th><th>Notes</th></tr>
 	<tr><td><a href="https://docs.ldomotors.com/en/Toolboard/Nitehawk-Hexa">LDO Nighthawk Hexa</a><br>
@@ -97,35 +97,70 @@ You need to be able to talk to all your toolheads. CAN bus is recommended. Pick 
 			<li>Additional expansion ports</li>
 			<li>2x 5V ARGB connectors</li>
 		</ul></td></tr>
-	<tr><td><a href="">USB-CAN board</a><br></td><td>If needed, I used the Fystec USB-CAN board because my Octopus 1.1 didn't have CAN onboard, or it was hard to get working.  I tried the BTT CAN borad, but never got it working.  The Fystec worked for me.</td></tr>
+	<tr><td><a href="">USB-CAN board</a><br></td><td>If needed, I used the Fystec USB-CAN board because my Octopus 1.1 didn't have CAN onboard, or it was hard to get working.  I tried the BTT CAN borad, but never got it to work.  The Fystec worked easily for me.</td></tr>
 </table>
 <br>
 
 ## Shuttle
 This is the part that goes on your X carriage to mate and pickup each tool. It will mate with a BACKPLATE that's made specifically for your toolhead. See Toolheads & Backplates below. <br>
 Print <a href="https://github.com/DraftShift/StealthChanger/tree/main/STLs/Extras/BeltHelper">BeltHelper</a> to help make this easier!<br>
-See <a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Draftshift Shuttle page</a> for printing, tuning, and assembly tips.
+See the excellent Draftshift <a href="https://github.com/DraftShift/StealthChanger/blob/main/Manual/Stealthchanger_Assembly_Guide.pdf">assembly guide</a> for instructions.
 <table>
 <tr><th>Shuttle Options</th><th>Details</th></tr>
 <tr><td><a href="https://www.fysetc.com/products/fysetc-stealthchanger-cnc-shuttle-kit-sb-combo-v2-board-tool-distribution-board-h36-board?variant=44927105040559">Fystec CNC Shuttle</a><br>
 		<img src="Images/Fystec_CNC_Shuttle.jpg" width=200></td><td>
 			<ul><li>I have this one, and it works well</li>
 			<li>It comes with pins, N52 magnets, and screws for 6 backplates also!</li>
+			<li>No instructions are included, so you need to figure it out</li>
 		</ul></td></tr>
 <tr><td><a href="https://kb-3d.com/store/voron/6008-ldo-motors-stealth-changer-cnc-shuttle-kit-6975415159350.html">LDO Kit CNC Shuttle</a><br>
-		<img src="Images/" width=200></td><td>
-			<ul><li>Not sure what comes with this kit</li>
+		<img src="Images/LDO_CNC_shuttle.jpg" width=200></td><td>
+			<ul><li>Not sure what comes with this kit; shuttle seems similar to the Fystec</li>
 		</ul></td></tr>
 <tr><td><a href="https://github.com/DraftShift/StealthChanger?tab=readme-ov-file">Print your own</a><br>
-		<img src="Images/" width=200></td><td>
+		<img src="Images/printed_backplate_v1.1.jpg" width=200></td><td>
 			<ul><li>These are thicker so you loose a bit more Y in print volume, and they are more flexibile</li>
 			<li>Just get a CNC shuttle!</li>
 		</ul></td></tr>
-
 </table>
 
+## Crossbar, dock, and door buffer
+A crossbar is recommended for stability, but there are options for how to mount it, and then that enables/disables other things.  You need to pick one of these options below.
+<br>Essential information: <a href="https://github.com/DraftShift/ModularDock">Draftshift Modular Dock</a>
+<br>Draftshift <a href="https://github.com/DraftShift/ModularDock/blob/main/Manual/ModularDock_Assembly_Guide.pdf">modular dock assembly guide.</a>
+<table>
+<tr><th>Crossbar options</th><th>Details</th></tr>
+<tr><td>No crossbar / Top mount<br>
+		<img src="Images/Dock_top_mount.png" width=200></td><td>
+			<ul><li>Least sturdy option</li>
+			<li>Requires several printed braces & links to help stabilize the docks</li>
+			<li>I haven't tried this, and don't see too many others doing it either</li>
+		</ul></td></tr>
+	<tr><td>Crossbar mounted outside front extrusions<br>
+		<img src="Images/Dock_outside.png" width=200></td><td>
+			<ul><li>Probably the most common setup</li>
+				<li>Strongest setup (least dock movement potential)</li>
+			<li>Requires a <a href="https://github.com/DraftShift/DoorBuffer">door buffer</a> so your door will still have something flat on the front of the printer</li>
+			<li>This option is what comes with the LDO kit</li>
+		</ul></td></tr>
+	<tr><td>Crossbar mounted <em>between</em> front extrusions<br>
+		<img src="Images/Dock_crabby.png" width=200></td><td>
+			<ul><li>Needs tight bolts to keep from rotating</li>
+			<li>No need for door buffer</li>
+			<li>20mm less Y build space unless you use shorter "stubby" docks.  Even with stubby docks, I think the Y build space is 10mm less than the outside-mounted crossbar</li>
+			<li>Image from @drakarah and <a href="https://www.printables.com/model/994635-stealthchanger-stealthburner-minimal-docks-aka-hap/comments">Happy Crab Docks</a></li>
+		</ul></td></tr>
+</table>
+
+* Door buffer & crossbar, default from Draftshift
+* [Dragonburner magnetic docks](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) (not in github, only Discord)
+* option:  replace front xy idlers: [Beefy Front Idlers](https://github.com/clee/VoronBFI)
+* Looks like I should try to change my idlers to [MiniBFI](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/BT123/MiniBFI%20%2B%20MicroBFI)
+
+
 ## Toolheads
-People seem to like smaller toolheads for Stealthchanger because you can fit more in the space your'e using. Anthead seems popular. You may build a dock for your existing toolhead (I had a Stealthburner), and then built new toolheads as other types. You can mix and match, but the configs get more complicated because you need to have different ones for each toolhead. For me, you need to calibrate each toolhead anyway, so it seems a good opportunity to try different toolheads. The list here is just the options I'm interested in.  StealthChanger supports other toolheads also!
+People seem to like smaller toolheads for Stealthchanger because you can fit more in the space you're using. You may build a dock for your existing toolhead (I had a Stealthburner), and then built new toolheads as other types. You can mix and match, but the configs get more complicated because you need to have different ones for each toolhead. For me, you need to calibrate each toolhead anyway, so it seems a good opportunity to try different toolheads. The list here is just the options I'm interested in.  StealthChanger supports other toolheads also!
+<br>Note that toolheads go hand-in-hand with their associated docks, and the options/mods available for them. 
 <table>
 <tr><th>Components</th><th>Details</th><th>Options</th></tr>
 	<tr>
@@ -194,16 +229,7 @@ https://github.com/jwellman80/VoronMods/tree/main/EBB36%20Umbilical%20Clip%20Mou
 	</td></tr>
 </tr>
 
-## Docking / Door Buffer / etc
-* Door buffer & crossbar, default from Draftshift
-* [Dragonburner magnetic docks](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) (not in github, only Discord)
-* option:  replace front xy idlers: [Beefy Front Idlers](https://github.com/clee/VoronBFI)
-* Looks like I should try to change my idlers to [MiniBFI](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/BT123/MiniBFI%20%2B%20MicroBFI)
 
-## Cable management
-* CAN 
-## Toolheads
-* [Fystec CNC Shuttle](https://www.fysetc.com/products/fysetc-stealthchanger-cnc-shuttle-kit-sb-combo-v2-board-tool-distribution-board-h36-board?variant=44927105040559) (includes all dowel pins, magnets, and hardware for 6 toolheads!)
 ### Stealthburner
 * [SB2209 CAN 2040](https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2209%20CAN%20(RP2040)/Hardware/EBB%20SB2209%20CAN%20V1.0（RP2040）-Pin.png)
 * Regular dock
@@ -243,7 +269,7 @@ I found that the default instructions on the Draftshift wiki were wrong. I start
 
 ## Setup & Slicing
 How to handle the build area loss from the docks? 
-<img width="895" height="757" alt="image" src="https://github.com/user-attachments/assets/1b72cddc-5580-4371-aec5-24bdd37dfcf3" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/1b72cddc-5580-4371-aec5-24bdd37dfcf3" />
 
 * [Stealthchanger plate image generator](https://jsfiddle.net/ng3Lawyb/).  This shows where to print short objects so you don't loose too much area in the front!
 * 
