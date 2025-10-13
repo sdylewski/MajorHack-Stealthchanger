@@ -155,65 +155,55 @@ A crossbar is recommended for stability, but there are options for how to mount 
 </table>
 
 ## Door Buffer
-
-* [Dragonburner magnetic docks](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) (not in github, only Discord)
-* option:  replace front xy idlers: [Beefy Front Idlers](https://github.com/clee/VoronBFI)
-* Looks like I should try to change my idlers to [MiniBFI](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/BT123/MiniBFI%20%2B%20MicroBFI)
+TBD
 
 
-## Toolheads
-People seem to like smaller toolheads for Stealthchanger because you can fit more in the space you're using. You may build a dock for your existing toolhead (I had a Stealthburner), and then built new toolheads as other types. You can mix and match, but the configs get more complicated because you need to have different ones for each toolhead. For me, you need to calibrate each toolhead anyway, so it seems a good opportunity to try different toolheads. The list here is just the options I'm interested in.  StealthChanger supports other toolheads also!
+## Toolheads & Docks (needs more work)
+People seem to like smaller toolheads for Stealthchanger because you can fit more in the space you're using. You may build a dock for your existing toolhead (I had a Stealthburner), and then built new toolheads as other types. You can mix and match, but the configs get more complicated because you need to have different ones for each toolhead. For me, you need to calibrate each toolhead anyway, so it seems a good opportunity to try different toolheads. The list here is just the options I'm interested in.  StealthChanger supports other toolheads also!<br>
 <br>Note that toolheads go hand-in-hand with their associated docks, and the options/mods available for them. 
+
 <table>
-<tr><th>Components</th><th>Details</th><th>Options</th></tr>
-	<tr>
-	<td valign=top><strong>
-		<a href="https://github.com/PrintersForAnts/AntHead/tree/main">AntHead</a> </strong>
+<tr><th>Components</th><th>Details</th></tr>
+<tr><td valign=top><strong><a href="https://github.com/PrintersForAnts/AntHead/tree/main">AntHead<br>
+	<img src="Images/Anthead.png" width=200></a></strong></td>
+	<td valign=top><ul><li>Seems popular and modern.</li>
+		<li>Uses 60mm wide docks. Can use stubby docks?</li>
+	</ul></td></tr>
+	
+<tr>
+	<td valign=top><strong><a href="https://github.com/Armchair-Heavy-Industries/A4T?tab=readme-ov-file">A4T<br>
+	<img src="Images/A4t.png" width=200></a></strong>
 	</td>
-	<td valign=top>Seems most popular and modern. Maybe harder to build?
-	</td>
-	<td valign=top>Uses 60mm wide docks. Can use stubby docks?
-	</td>
-	</tr>
-		<tr>
-	<td valign=top><strong><a href="https://github.com/Armchair-Heavy-Industries/A4T?tab=readme-ov-file">A4T</a></strong>
-	</td>
-	<td valign=top>Slightly less supported with mods, but performance is supposed to be good.
-	</td>
-	<td valign=top><ul><li>
-	Requires Shorter Z joints like [Ge5C z-joints](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C) so you don't bottom out your carriage when homing.</li>
+	<td valign=top><ul><li>Slightly less supported with mods, but performance is supposed to be good.</li>
+	<li>Requires Shorter Z joints like <a href="https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C">Ge5C z-joints</a> so you don't bottom out your carriage when homing.</li>
 		<li>Requires new smaller front idlers like the <a href="https://github.com/clee/VoronBFI">BFI</a> or <a href="https://github.com/DraftShift/StealthChanger/tree/main/UserMods/BT123/MiniBFI%20%2B%20MicroBFI">Mini BFI</a></li>
-	</ul>
+	</ul></td></tr>
+	
+<tr>
+	<td valign=top><strong><a href="https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner">Dragonburner<br><img src="Dragonburner.png" width=200></a></strong>
 	</td>
-	</tr>
-		<tr>
-	<td valign=top><strong><a href="https://github.com/chirpy2605/voron/tree/main/V0/Yavoth">Yavoth</a></strong>
+	<td valign=top><ul><li>Uses 60mm wide docks. Can use stubby docks. </li>
+	<li><a href="https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20and%20V1.2%20(STM32G0B1)/EBB36%20CAN%20V1.1%20and%20V1.2/Hardware/EBB36%20CAN%20V1.1%26V1.2-PIN.png">EBB36 CAN Toolhead Board</a>, using UserMod <a href="https://github.com/DraftShift/StealthChanger/tree/main/UserMods/TheSin-/PCB36_Mount">TheSin PCB36 Mount</a></li>
+		<li><a href="https://www.printables.com/model/1440113-m3-heatset-standoffs-10mm-30mm">22mm standoffs</a> to mount the toolhead board to Orbiter 2 extruder</li>
+		<li><a href="https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005">Magnetic dock</a> for Dragonburner, Discord only</li>
+	<li><a href="https://github.com/DraftShift/StealthChanger/tree/main/UserMods/traxman25">Dragonburner numbered cowls</a> (not compatible with magnetic bases)</li>
+	</ul></td></tr>
+	
+<tr>
+	<td valign=top><strong><a href="https://github.com/VoronDesign/Voron-Stealthburner">Stealthburner<br><img src="Images/Stealthburner.png" width=200></a></strong>
 	</td>
-	<td valign=top>Uses 60mm wide docks.  Can it use stubby docks?
-	</td>
-	<td valign=top>
-	</td>
-	</tr>
-		<tr>
-	<td valign=top><strong><a href="">Dragonburner</a></strong>
-	</td>
-	<td valign=top>Uses 60mm wide docks. Can use stubby docks. 
-	</td>
-	<td valign=top>
-	</td>
-	</tr>
-		<tr>
-	<td valign=top><strong><a href="https://github.com/VoronDesign/Voron-Stealthburner">Stealthburner</a></strong>
-	</td>
-	<td valign=top>Can work fine. Needs 76mm wide dock. Docking is a bit harder, but mine seems fine. Needs work on umbilical attachment for 3mm spring steel umbuilical from N3MI.
-	</td>
-	<td valign=top><ul>
+	<td valign=top><ul><li>Can work fine. Needs 76mm wide dock. Docking is a bit harder, but mine seems fine. Needs work on umbilical attachment for 3mm spring steel umbuilical from N3MI.</li>
 		<li>Recommend the <a href="https://www.printables.com/model/1384948-stealthchanger-stealthburner-backplate-v11-magnet">screw-in backplate mod</a> for better 4mm pin positioning</li>
 		<li>and magnetic backplate (same file above) for better control of stealthburner on dock.</li>
-		</ul>
-	</td>
-	</tr>
+		<li><a href="https://www.printables.com/model/994635-stealthchanger-stealthburner-minimal-docks-aka-hap">Happy Crab Docks</a></li>
+		<li><a href="https://www.printables.com/model/1358108-stealtchanger-stealthburner-backplate-with-screwed/comments">Screwed pins backplate</a></li>
+		</ul></td></tr>
 </table>
+
+<hr>
+# Below here needs more work...
+<hr>
+
 
 Toolhead PCBs:  
 For EBB36 / Nighthawk 36 / 
@@ -233,20 +223,6 @@ https://github.com/jwellman80/VoronMods/tree/main/EBB36%20Umbilical%20Clip%20Mou
 </tr>
 
 
-### Stealthburner
-* [SB2209 CAN 2040](https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2209%20CAN%20(RP2040)/Hardware/EBB%20SB2209%20CAN%20V1.0（RP2040）-Pin.png)
-* Regular dock
-* Magnetic dock?
-* [Happy Crab dock](https://www.printables.com/model/994635-stealthchanger-stealthburner-minimal-docks-aka-hap)
-* TBD: [Filament runout](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/RNGIllSkillz/IllFilamentRunout)
-* [Screwed pins backplate](https://www.printables.com/model/1358108-stealtchanger-stealthburner-backplate-with-screwed/comments)
-* 
-### Dragonburners
-* [EBB36 CANn toolhead board](https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20and%20V1.2%20(STM32G0B1)/EBB36%20CAN%20V1.1%20and%20V1.2/Hardware/EBB36%20CAN%20V1.1%26V1.2-PIN.png), using UserMod [TheSin PCB36 Mount](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/TheSin-/PCB36_Mount)
-* [22mm standoffs](https://www.printables.com/model/1440113-m3-heatset-standoffs-10mm-30mm) to mount the toolhead board to Orbiter 2 extruder
-* Needs the toolhead attachment to shuttle from TheSin also: 
-* [Magnetic dock](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005) for Dragonburner, Discord only
-* [Dragonburner numbered cowls](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/traxman25) (not compatible with magnetic bases?)
 
 ## Software & Calibration
 Sounds like I should use "Klipper-toolchanger-easy" instead of the default repo.  
@@ -274,5 +250,9 @@ I found that the default instructions on the Draftshift wiki were wrong. I start
 How to handle the build area loss from the docks? 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/1b72cddc-5580-4371-aec5-24bdd37dfcf3" />
 
+
+## Other
 * [Stealthchanger plate image generator](https://jsfiddle.net/ng3Lawyb/).  This shows where to print short objects so you don't loose too much area in the front!
-* 
+
+* TBD: [Filament runout](https://github.com/DraftShift/StealthChanger/tree/main/UserMods/RNGIllSkillz/IllFilamentRunout)
+
