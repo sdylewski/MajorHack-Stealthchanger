@@ -45,3 +45,52 @@ Chages from original design:
 ## Usage
 
 
+Use T0
+Home all
+QGL
+Manually move the nozzle a mm or two dirctly above the probe, then run
+TOOL_LOCATE_SENSOR
+to find the exact location. Returns your T0 probe location. 
+For Nudge, enter it in "Nudge_move_over_probe" gcode macro section
+Save config and restart 
+Run "Nudge_find_tool_offset" or "nudge_find_tool_offsets" to do all tools.
+
+
+Klipper-toolchanger-easy commands for sexbolt: (need to try them)
+```
+TOOL_LOCATE_SENSOR
+TOOL_CALIBRATE_TOOL_OFFSET
+TOOL_CALIBRATE_SAVE_TOOL_OFFSET
+TOOL_CALIBRATE_PROBE_OFFSET
+TOOL_CALIBRATE_QUERY_PROBE
+TOOL_CALIBRATE_QUERY_PROBE
+TOOL_CALIBRATE_QUERY_PROBE_help
+```
+
+Nudge probe commands:
+
+## Accuracy
+Nudge: For my setup, using the Nudge-recommended [printer-experiments](https://github.com/zruncho3d/printer-experiments) repo, for 10 iterations:
+```Printing stats for x:
+  Range: 0.0328
+  Min: 71.1219
+  Max: 71.1547
+  Median: 71.1297
+  Standard Deviation: 0.0089
+Printing stats for y:
+  Range: 0.0312
+  Min: 305.3906
+  Max: 305.4219
+  Median: 305.4086
+  Standard Deviation: 0.0096
+Printing stats for z:
+  Range: 0.0137
+  Min: 30.5755
+  Max: 30.5892
+  Median: 30.5799
+  Standard Deviation: 0.0039
+```
+
+
+
+
