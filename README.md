@@ -32,6 +32,7 @@ What worked well for me was to do the following in this order:
   ** NOTE: The wiki is great, but the pages listed on the right are alphabetical, NOT in the order you should be working from. You should follow the order of the [Checklist page](https://github.com/DraftShift/StealthChanger/wiki/Checklist)!
 * DraftShift Design Github Repositories
 * UserMods for each Repo.
+* [Drakarah's Stealthchanger Journey](https://github.com/drake7707/Drakarah3DPrinter/blob/main/journey-to-stealthchanger.md)
 * Good [instructions from Cergs](https://github.com/EasterWorks/Cergs-Stealthchanger/blob/main/Hardware-And-Calibration.md) and background found here
 
 
