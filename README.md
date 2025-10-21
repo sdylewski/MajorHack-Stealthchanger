@@ -1,4 +1,9 @@
 # Stealthchanger Guide
+(work in progress)
+... also working to incorporate this information and update the stealthchanger docs in a new repository: 
+[https://sdylewski.github.io/StealthChanger/](https://sdylewski.github.io/StealthChanger/)
+
+
 ## Introduction
 It was difficult to figure out my stealthchanger build, so this is my attempt to help organize the workflow, options, and decisions needed.
 
