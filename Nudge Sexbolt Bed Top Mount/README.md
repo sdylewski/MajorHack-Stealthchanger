@@ -3,7 +3,9 @@
 
 
 ## Overview & Design
-I tried the design from ___ and ___ and found my bracket was moving around a bit, and wanted something a bit more sturdy and perhaps simpler if possible.  I also wanted something that would work with the [Nudge](https://github.com/zruncho3d/nudge/blob/main/README.md) or [Sexbolt](https://mods.vorondesign.com/details/t1DBVlcUBbdEK6habEsVzg) alignment hardware because my Nudge was not working well until I got the copper M3x6 SHCS. I'm getting an X,Y accuracy of < 0.001 mm.
+I tried the design from [@MRSalgoud](https://www.printables.com/model/1254246-nudge-dockable-24-mount) and found my bracket was moving around a bit, and wanted something a bit more sturdy and perhaps simpler if possible.  I also wanted something that would work with the [Nudge](https://github.com/zruncho3d/nudge/blob/main/README.md) or [Sexbolt](https://mods.vorondesign.com/details/t1DBVlcUBbdEK6habEsVzg) alignment hardware because my Nudge was not working well until I got the copper M3x6 SHCS. 
+
+I'm now getting an X,Y accuracy of < 0.001 mm.
 
 Chages from original design:
 
